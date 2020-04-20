@@ -7,6 +7,7 @@ layout: default
     <div class="aside">
       <div class="info-card">
         <h1>雪峰豪</h1>
+        <div>我是一个天真的少年！</div>
           <a href="http://weibo.com/beiyuu/" target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
         <a href="http://www.douban.com/people/beiyuu/" target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
         <a href="http://instagram.com/beiyuu/" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
@@ -18,7 +19,7 @@ layout: default
       <ul class="artical-list">
         {% for post in site.categories.blog %}
         <li>
-       
+          <a href="{{ post.url }}" class="title">{{ post.title }}</a>
           <div class="title-desc">{{ post.description }}</div>
         </li>
         {% endfor %}
