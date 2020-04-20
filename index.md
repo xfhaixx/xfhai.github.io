@@ -7,7 +7,7 @@ layout: default
     <div class="aside">
       <div class="info-card">
         <h1>雪峰豪</h1>
-       
+      </div>
       <div id="particles-js"></div>
     </div>
 
