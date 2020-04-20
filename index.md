@@ -11,7 +11,7 @@ layout: default
         <a href="http://www.douban.com/people/beiyuu/" target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
         <a href="http://instagram.com/beiyuu/" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
       </div>
-      <div id="particles-js"> <h1>我是一个天真的少年！</h1></div>
+      <div id="particles-js"> </div>
     </div>
 
     <div class="index-content">
@@ -24,5 +24,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+      <h1>我是一个天真的少年！</h1>
   </div>
+
 </body>
