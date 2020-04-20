@@ -24,7 +24,6 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-      <h1>我是一个天真的少年！</h1>
   </div>
 
 </body>
